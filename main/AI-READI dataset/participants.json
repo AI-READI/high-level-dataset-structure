@@ -10,13 +10,6 @@
             "F": "female"
         }
     },
-    "handedness": {
-        "Description": "handedness of the participant as reported by the participant",
-        "Levels": {
-            "left": "left",
-            "right": "right"
-        }
-    },
     "group": {
         "Description": "experimental group the participant belonged to",
         "Levels": {
