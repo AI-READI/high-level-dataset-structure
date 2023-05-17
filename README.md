@@ -4,10 +4,10 @@
 
 <br />
 
-<h1> Standard high level dataset structure </h1>
+<h1> Biomedical and Clinical Dataset Structure (BCDS) </h1>
 
 <p>
-A standardized universal high-level dataset structure for FAIR biomedical and clinical research data
+A standardized, universal high-level dataset structure for FAIR biomedical and clinical research data
 </p>
 
 <br />
@@ -47,7 +47,9 @@ A standardized universal high-level dataset structure for FAIR biomedical and cl
 
 ## Description
 
-This repository contains details and templates for the high-level dataset structure that will be followed for structuring the AI-READI dataset. By high-level structure, we designate here the root level structure of the dataset as seen on a computer when it is downloaded.
+The Biomedical and Clinical Dataset Structure (BCDS) is a standard for the high-level organization of biomedical and clinical research data. It prescribes a folder structure for organizing a dataset at the highest level (i.e., root-level structure as seen on a computer when it is downloaded) into one folder per data type wherein data type-specific standard structures can then be followed for each data type within that folder. It also prescribes several metadata files to be included at the highest level of the dataset structure. The goal of the BDCS is to increase the interoperability and reusabiliy of biomedical/clinical research data, especially for multimodal datasets. This is crucial for combining different datasets together to enable statistical analysis, AI/ML-based modeling, and such.
+
+We are developing the BCDS at part of the AI-READI project where we identified a gap in organizing multimodal data into a standard structure. This repository contains details about the BCDS specifications and templates to help implement them.
 
 ## Contributing
 
