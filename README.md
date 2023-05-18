@@ -31,9 +31,7 @@ A standardized, universal high-level dataset structure for FAIR biomedical and c
     <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6407300.svg" alt="doi" />
   </a>
   -->
-  <a href="https://fairdataihub.org/fairshare">
-    <img src="https://raw.githubusercontent.com/fairdataihub/FAIRshare/main/badge.svg" alt="Curated with FAIRshare" />
-  </a>
+
 </p>
    
 <h4>
