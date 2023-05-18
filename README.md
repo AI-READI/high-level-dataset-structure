@@ -67,12 +67,11 @@ To report any issues with the software, suggest improvements, or request a new f
 
 ## License
 
-This work is licensed under
-[MIT](https://opensource.org/licenses/mit). See [LICENSE](https://github.com/AI-READI/template/blob/main/LICENSE) for more information.
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by]. See [LICENSE](LICENSE.md) for more information.
 
-<a href="https://aireadi.org" >
-  <img src="https://www.channelfutures.com/files/2017/04/3_0.png" height="30" />
-</a>
+[![CC BY 4.0][cc-by-image]][cc-by]
+
 
 ## How to cite
 
