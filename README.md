@@ -43,11 +43,17 @@ A standardized, universal high-level dataset structure for FAIR biomedical and c
 
 ---
 
-## Description
+## About
 
-The Biomedical and Clinical Dataset Structure (BCDS) is a standard for the high-level organization of biomedical and clinical research data. It prescribes a folder structure for organizing a dataset at the highest level (i.e., root-level structure as seen on a computer when it is downloaded) into one folder per data type wherein data type-specific standard structures can then be followed for each data type within that folder. It also prescribes several metadata files to be included at the highest level of the dataset structure. The goal of the BDCS is to increase the interoperability and reusabiliy of biomedical/clinical research data, especially for multimodal datasets. This is crucial for combining different datasets together to enable statistical analysis, AI/ML-based modeling, and such.
+The Biomedical and Clinical Dataset Structure (BCDS) is a standard for the high-level organization of biomedical and clinical research data. It prescribes a folder structure for organizing a dataset at the highest level (i.e., root-level structure e.g. as seen on a computer when it is downloaded) into one folder per data type wherein data type-specific standard structures can then be followed for each data type within that folder. It also prescribes several metadata files to be included at the highest level of the dataset structure. The goal of the BDCS is to increase the interoperability and reusabiliy of biomedical/clinical research data, especially for multimodal datasets. This is crucial for combining different datasets together to enable statistical analysis, AI/ML-based modeling, and such.
 
 We are developing the BCDS at part of the AI-READI project where we identified a gap in organizing multimodal data into a standard structure. This repository contains details about the BCDS specifications and templates to help implement them.
+
+## Specifications
+
+The specifications of the latest released version of the BCSD can be found [here](specification). 
+
+Each version of the BCSD standard are stored in a dedicated folder under the `specifications` folder. An assessment of the compliance of the BCSD with the relevant FAIR principles is also included with each version. The `main` folder contain a copy of the latest release folder where edits/suggestions can be made via pull request. At the time of the release of a new version of the BCSD, the `main` folder will be copied in the `specifications` folder and renamed after the new version number. Changes between the different versions are tracked in the [CHANGELOG](CHANGELOG.md) file. 
 
 ## Contributing
 
@@ -57,11 +63,7 @@ We are developing the BCDS at part of the AI-READI project where we identified a
 
 Contributions are always welcome!
 
-If you are interested in reporting/fixing issues and contributing directly to the code base, please see [CONTRIBUTING.md](CONTRIBUTING.md) for more information on what we're looking for and how to get started.
-
-## Issues and Feedback
-
-To report any issues with the software, suggest improvements, or request a new feature, please open a new issue via the [Issues](https://github.com/AI-READI/high-level-dataset-structure/issues) tab. Provide adequate information (operating system, steps leading to error, screenshots) so we can help you efficiently.
+Use the [GitHub issues](https://github.com/AI-READI/high-level-dataset-structure/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the `main` folder of the main branch if making suggestions on the last released version of the BCDS or on the `main` folder of the staging branch if making suggestions on the lastest draft version (suggested).
 
 ## License
 
@@ -84,8 +86,6 @@ If you are using this software or reusing the source code from this repository f
 ## Acknowledgements
 
 This project is funded by the NIH under award number 1OT2OD032644. The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.
-
-Add any other acknowledgements here.
 
 <br />
 
