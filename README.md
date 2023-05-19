@@ -44,8 +44,11 @@ A standardized, universal high-level dataset structure for FAIR biomedical and c
 ---
 
 ## About
+Biomedical and clinical research result in complicated data, generally multimodal, that can be arranged in many different ways. So far there is no consensus how to organize and share multimodal biomedical and clinical data and metadata into a structured dataset. This lack of a standard leads to difficulties in understanding datasets and time wasted on rearranging data both of which obstruct the optimal reuse of datasets.
 
-The Biomedical and Clinical Dataset Structure (BCDS) is a standard for the high-level organization of biomedical and clinical research data. It prescribes a folder structure for organizing a dataset at the highest level (i.e., root-level structure e.g. as seen on a computer when it is downloaded) into one folder per data type wherein data type-specific standard structures can then be followed for each data type within that folder. It also prescribes several metadata files to be included at the highest level of the dataset structure. The goal of the BDCS is to increase the interoperability and reusabiliy of biomedical/clinical research data, especially for multimodal datasets. This is crucial for combining different datasets together to enable statistical analysis, AI/ML-based modeling, and such.
+The Biomedical and Clinical Dataset Structure (BCDS) is a simple and intuitive standard for the high-level organization of biomedical and clinical research data. It prescribes a folder structure for organizing a dataset at the highest level (i.e., root-level structure e.g. as seen on a computer when it is downloaded) into one folder per data type wherein data type-specific standard structures can then be followed for each data type within that folder. It also prescribes several metadata files to be included at the highest level of the dataset structure. 
+
+The goal of the BDCS is to increase the interoperability and reusabiliy of biomedical/clinical research data. This is crucial to faciliate the understanding of a dataset and also enable combining different datasets together for statistical analysis, AI/ML-based modeling, and such.
 
 We are developing the BCDS at part of the AI-READI project where we identified a gap in organizing multimodal data into a standard structure. This repository contains details about the BCDS specifications and templates to help implement them.
 
