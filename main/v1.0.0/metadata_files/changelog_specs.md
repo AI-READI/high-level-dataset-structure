@@ -28,7 +28,7 @@ The content must be structured following the [Keep a changelog v1.1.0](https://k
 - Each release note  must start with a version number as a title followed by the release date. 
 The version number must follow the [Semantic Versioning 2.0.0](https://semver.org/) and the release date must follow the [ISO-8601 format](https://en.wikipedia.org/wiki/ISO_8601) (YYYY-MM-DD). 
 - The content of each release note must be organized under these categorises as applicable (the definition of the categories have been adapted 
-from Keep a changelog conventions to be more suitable for datasets):
+from the Keep a changelog conventions to be more suitable for datasets):
   - “Added”:  High-level explanation of the new data or metadata files that have been added.
   - “Changed”: High-level explanation of previously published data or metadata files that have been modified.
   - “Removed”: High-level explanation of the previously published data or metadata files that have been removed.
