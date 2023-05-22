@@ -22,6 +22,8 @@ The following metadata files must be included at the highest level:
 
 ## Example
 
-Add image
+A template with example is available in the [`template` folder](../template).
 
-Point to template
+An image of a example dataset with two data types () is shown below.
+
+
