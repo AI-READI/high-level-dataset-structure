@@ -8,6 +8,9 @@ which itself is likely inspired by the README file commonly used to describe sof
 
 ## Specifications
 
+### Requirement
+This metadata is mandatory for all datasets.
+
 ### Name
 This metadata file must be named `README`.
 
