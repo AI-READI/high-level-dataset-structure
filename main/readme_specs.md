@@ -19,7 +19,7 @@ This metadata file must be in the markdown format. The full name with extension 
 This metadata file must be at the highest-level/root-level of the dataset.
 
 ### Content
-This file must contain the information listed below. It is suggested to follow the structure provided in the [template](template). 
+This file must contain the information listed below. It is suggested to follow the structure provided in the [template](../template). 
 - Name of the dataset
 - Current version of the dataset
 - Date the current version was published
