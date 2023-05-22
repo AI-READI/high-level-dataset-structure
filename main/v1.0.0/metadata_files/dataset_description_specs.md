@@ -24,7 +24,7 @@ This metadata file must be at the highest-level/root-level of the dataset.
 This metadata file must be structured as per the [DataCite JSON specifications](https://doi.org/10.5438/1pca-1y05). 
 The keys in this json file and their values must follow the [DataCite Metadata Schema 4.4](https://doi.org/10.14454/3w3z-sa82) with the 
 [ECRIN Metadata Schema v6.0 extension](https://doi.org/10.5281/zenodo.5554961) (indicated with a * in the table below). 
-All the keys listed in the table below must and their subkeys be included with an associated value when available. 
+All the keys listed in the table below and their subkeys be included with an associated value when available. 
 
 |       Keys                                                                                
 |:----------------------------------------------------------------------------------------:
@@ -33,7 +33,7 @@ All the keys listed in the table below must and their subkeys be included with a
 | `Title`                                                    
 | `Publisher`                                                      
 | `PublicationYear`
-| `ResourceType` (with `resourceTypeGeneral` set to `Dataset` being mandatory
+| `ResourceType` (with `resourceTypeGeneral` set to `Dataset` being mandatory)
 | `Subject`
 | `Contributor`
 | `Date` (with `dateType` set to `Created` being mandatory)
