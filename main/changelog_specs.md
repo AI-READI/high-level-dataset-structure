@@ -3,8 +3,7 @@
 ## About
 The CHANGELOG.md is a metadata file containing information about the changes between different versions of the dataset that are released. 
 This file is intended to provide a human and machine readable overview of different versions of the dataset that are released, their release date, 
-and changes included between the different versions. It is inspired by the CHANGES.txt metadata file found in the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/) 
-and the [SPARC Data Standards (SDS)](https://docs.sparc.science/docs/overview-of-sparc-dataset-format).
+and changes included between the different versions. It is inspired by the CHANGES.txt metadata file from the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/) and the [SPARC Data Standards (SDS)](https://docs.sparc.science/docs/overview-of-sparc-dataset-format).
 
 ## Specifications
 
