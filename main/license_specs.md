@@ -2,7 +2,7 @@
 
 ## About
 The LICENSE.txt is a metadata file containing the terms under which the dataset is shared. This file is intended to provide a human readable overview of 
-requirements and conditions for reusing the data. It is inspired by the LICENSE metadata file in the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/).
+requirements and conditions for reusing the data. It is inspired by the LICENSE metadata file from the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/).
 
 ## Specifications
 
