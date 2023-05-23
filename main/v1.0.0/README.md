@@ -24,6 +24,10 @@ The following metadata files must be included at the highest level:
 
 A template with example is available in the [`template` folder](../../template).
 
-An image of a example dataset with two data types () is shown below.
+An image of a example dataset with two data types (electrocardiogram and optical coherence tomography) is shown below.
+
+![BCDS example](BCDS_example.png)
+
+
 
 
