@@ -52,6 +52,11 @@ The goal of the BDCS is to increase the interoperability and reusabiliy of biome
 
 We are developing the BCDS at part of the AI-READI project where we identified a gap in organizing multimodal data into a standard structure. This repository contains details about the BCDS specifications and templates to help implement them.
 
+<div align="center">
+    <img src="main/v1.0.0/BCDS_example.png" alt="BCDS example" width="400" height="auto" />
+    <p><i> Illustration of a example dataset with two data types (electrocardiogram and optical coherence tomography). </i></p>
+</div>
+
 ## Specifications
 
 The specifications of the latest released version of the BCSD can be found [here](specifications). 
