@@ -6,13 +6,15 @@
 - Dataset: A set of data files and associated metadata files issued from a biomedical and/or clinical research study.
 - Data type: In a biomedical/clinical research study, multiple modalities of data are collected. We designate by data type data from a modality or a group of modalities than can collected and interpreted independently of other modalities.
 
-## High-level data structure
+## Specifications
+
+### High-level data structure
 - The data files must be organized into one folder per data type. No data file must be present at the highest level of a dataset. 
 - Each folder must be named following the specification provided [here](folder_naming/folder_naming_specs.md). 
 - Inside each folder, the data must be organized according to existing community-accepted standard for that data type if available or following some other standard structure. This must be documented in the metadata files as explained in the metadata files specifications. 
 - No empty folders are allowed.
 
-## High-level metadata files
+### High-level metadata files
 The following metadata files must be included at the highest level:
 - dataset_description.json: A metadata file containing provenance metadata, contextual metadata, as well as additional metadata necessary for reuse of the dataset. This metadata file is intended to prioritize machine readability. See [here](metadata_files/dataset_description_specs.md) for specifications about this metadata file. 
 - README.md: A metadata file containing a detailed description of the dataset in a human-friendly format to supplement the dataset_description.json file. See [here](metadata_files/readme_specs.md) for specifications about this metadata file. 
@@ -20,11 +22,15 @@ The following metadata files must be included at the highest level:
 - CHANGELOG.md: A metadata file containing information about the changes between different versions of the dataset that are released. See [here](metadata_files/changelog_specs.md) for specifications about this metadata file. 
 - LICENSE.txt: A metadata file containing the terms under which the dataset is shared. See [here](metadata_files/license_specs.md) for specifications about this metadata file. 
 
+
+## Compliance with FAIR principles
+An examplation of how the BCDS help complying with relevant FAIR principles is provided [here](compliance_FAIR.md). 
+
 ## Example
 
 A template with example is available in the [`template` folder](../../template).
 
-An image of a example dataset with two data types (electrocardiogram and optical coherence tomography) is shown below.
+An illustration of a example dataset with two data types (electrocardiogram and optical coherence tomography) is shown below.
 
 ![BCDS example](BCDS_example.png)
 
