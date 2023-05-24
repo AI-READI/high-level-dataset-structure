@@ -24,9 +24,9 @@ The following metadata files must be included at the highest level:
 
 If the dataset includes data from samples (e.g., cells, tissues, etc.) the following metadata files must be included:
 - samples.tsv and samples.json: Metadata files containing basic information about the samples used in the study. The samples.tsv file contains the information while the sample.json file acts as a sidecar that describes the columns in the samples.tsv file. See [here](metadata_files/samples_specs.md) for specifications about these metadata files. 
-- 
+
 ## Compliance with FAIR principles
-An examplation of how the BCDS help complying with relevant FAIR principles is provided [here](compliance_FAIR.md). 
+An explation of how the BCDS help complying with relevant FAIR principles is provided [here](compliance_FAIR.md). 
 
 ## Example
 
@@ -34,8 +34,10 @@ A template with example is available in the [`template` folder](../../template).
 
 An illustration of a example dataset with two data types (electrocardiogram and optical coherence tomography) is shown below.
 
-![BCDS example](BCDS_example.png)
-
+<div align="center">
+    <img src="BCDS_example.png" alt="BCDS example" width="400" height="auto" />
+    <p><i> Illustration of a example dataset with two data types (electrocardiogram and optical coherence tomography) following the BCDS. </i></p>
+</div>
 
 
 
