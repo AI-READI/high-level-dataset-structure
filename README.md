@@ -54,7 +54,7 @@ We are developing the BCDS at part of the AI-READI project where we identified a
 
 <div align="center">
     <img src="main/v1.0.0/BCDS_example.png" alt="BCDS example" width="400" height="auto" />
-    <p><i> Illustration of a example dataset with two data types (electrocardiogram and optical coherence tomography). </i></p>
+    <p><i> Illustration of a example dataset with two data types (electrocardiogram and optical coherence tomography) following the BCDS. </i></p>
 </div>
 
 ## Specifications
