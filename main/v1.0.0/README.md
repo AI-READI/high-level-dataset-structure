@@ -37,7 +37,7 @@ An illustration of a example dataset with two data types (electrocardiogram and 
 
 <div align="center">
     <img src="BCDS_example.png" alt="BCDS example" width="400" height="auto" />
-    <p><i> Illustration of a example dataset with two data types (electrocardiogram and optical coherence tomography) following the BCDS. </i></p>
+    <p><i> Illustration of a example dataset with two data types (electrocardiogram and optical coherence tomography) and no samples structured following the BCDS. </i></p>
 </div>
 
 
