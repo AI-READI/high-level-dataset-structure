@@ -16,7 +16,8 @@
 
 ### High-level metadata files
 The following metadata files must be included at the highest level:
-- dataset_description.json: A metadata file containing provenance metadata, contextual metadata, as well as additional metadata necessary for reuse of the dataset. This metadata file is intended to prioritize machine readability. See [here](metadata_files/dataset_description_specs.md) for specifications about this metadata file. 
+- study_description.json: A metadata file containing provenance metadata, contextual metadata, as well as additional metadata about the study associated with the dataset. This metadata file is intended to prioritize machine readability. See [here](metadata_files/study_description_specs.md) for specifications about this metadata file. 
+- dataset_description.json: A metadata file containing provenance metadata, contextual metadata, as well as additional metadata necessary for reusing the dataset. This metadata file is intended to prioritize machine readability. See [here](metadata_files/dataset_description_specs.md) for specifications about this metadata file. 
 - README.md: A metadata file containing a detailed description of the dataset in a human-friendly format to supplement the dataset_description.json file. See [here](metadata_files/readme_specs.md) for specifications about this metadata file. 
 - participants.tsv and participants.json: Metadata files containing basic information about the participants in the study. The participant.tsv file contains the information while the participant.json file acts as a sidecar that describes the columns in the participant.tsv file. See [here](metadata_files/participants_specs.md) for specifications about these metadata files. 
 - CHANGELOG.md: A metadata file containing information about the changes between different versions of the dataset that are released. See [here](metadata_files/changelog_specs.md) for specifications about this metadata file. 
