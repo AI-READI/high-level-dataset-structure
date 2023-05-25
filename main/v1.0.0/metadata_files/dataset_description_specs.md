@@ -15,7 +15,7 @@ This metadata is mandatory for all datasets.
 This metadata file must be named `dataset_description`.
 
 ### Format
-This metadata file must be in the json format. The full name with extension must thus be `dataset_description.json`.
+This metadata file must be in the JSON format. The full name with extension must thus be `dataset_description.json`.
 
 ### Location
 This metadata file must be at the highest-level/root-level of the dataset.
