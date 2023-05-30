@@ -1,7 +1,7 @@
 # participants.json and participants.tsv
 
 ## About
-The participants.json and participants.tsv files are metadata files containing basic information about the participants in the study. 
+The participants.json and participants.tsv files are metadata files that contain basic information about the participants in the study. 
 The participant.tsv file contains the information while the participant.json file acts as a sidecar that describes the columns in the participant.tsv file.
 These files are replicated from from the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/).
 
