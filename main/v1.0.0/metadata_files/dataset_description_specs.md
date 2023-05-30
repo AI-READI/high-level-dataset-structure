@@ -1,7 +1,7 @@
 # dataset_description.json
 
 ## About
-The dataset_description.json is a metadata file containing provenance metadata, contextual metadata, 
+The dataset_description.json is a metadata file that contains provenance metadata, contextual metadata, 
 as well as additional metadata necessary for reuse of the dataset. This metadata file is intended to prioritize machine readability. 
 It is inspired by the dataset_description metadata file from the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/)
 and the [SPARC Data Standards (SDS)](https://docs.sparc.science/docs/overview-of-sparc-dataset-format).
@@ -18,7 +18,7 @@ This metadata file must be named `dataset_description`.
 This metadata file must be in the JSON format. The full name with extension must thus be `dataset_description.json`.
 
 ### Location
-This metadata file must be at the highest-level/root-level of the dataset.
+This metadata file must be located at the highest-level/root-level of the dataset.
 
 ### Content
 This metadata file must be structured as per the [DataCite JSON specifications](https://doi.org/10.5438/1pca-1y05). 
