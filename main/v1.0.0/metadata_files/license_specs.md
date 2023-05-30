@@ -1,7 +1,7 @@
 # LICENSE.txt
 
 ## About
-The LICENSE.txt is a metadata file containing the terms under which the dataset is shared. This file is intended to provide a human readable overview of 
+The LICENSE.txt is a metadata file that contains the terms under which the dataset is shared. This file is intended to provide a human readable overview of 
 requirements and conditions for reusing the data. It is inspired by the LICENSE metadata file from the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/).
 
 ## Specifications
@@ -16,7 +16,7 @@ This metadata file must be named `LICENSE`.
 This metadata file must be in the text format. The full name with extension must thus be `LICENSE.txt`.
 
 ### Location
-This metadata file must be at the highest-level/root-level of the dataset.
+This metadata file must be located at the highest-level/root-level of the dataset.
 
 ### Content
 If possible, a standard license from the [Software Package Data Exchange (SPDX) License List](https://spdx.org/licenses/) should be used. 
