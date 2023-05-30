@@ -1,7 +1,7 @@
 # README.md
 
 ## About
-The README.md file is a metadata file containing a detailed description of the dataset in a human-friendly format to supplement the dataset_description.json file. 
+The README.md file is a metadata file that contains a detailed description of the dataset in a human-friendly format to supplement the dataset_description.json file. 
 You can think about it as a detailed abstract for your dataset, i.e. the first thing that a human reuser of the data will read. This metadata file is inspired by README metadata file from the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/) and the [SPARC Data Standards (SDS)](https://docs.sparc.science/docs/overview-of-sparc-dataset-format), which itself is likely inspired by the README file commonly used to describe software.
 
 ## Specifications
@@ -16,7 +16,7 @@ This metadata file must be named `README`.
 This metadata file must be in the markdown format. The full name with extension must thus be `README.md`.
 
 ### Location
-This metadata file must be at the highest-level/root-level of the dataset.
+This metadata file must be located at the highest-level/root-level of the dataset.
 
 ### Content
 This file must contain the information listed below. It is suggested to follow the structure provided in the [template](../template). 
