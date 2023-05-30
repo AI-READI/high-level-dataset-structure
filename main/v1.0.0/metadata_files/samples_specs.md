@@ -1,7 +1,7 @@
 # samples.json and samples.tsv
 
 ## About
-The samples.json and samples.tsv files are metadata files containing basic information about the samples used in the study. 
+The samples.json and samples.tsv files are metadata files that contain basic information about the samples used in the study. 
 The samples.tsv file contains the information while the samples.json file acts as a sidecar that describes the columns in the samples.tsv file.
 These files are replicated from from the [Brain Imaging Data Structure (BIDS)](https://bids-specification.readthedocs.io/).
 
