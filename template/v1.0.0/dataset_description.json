@@ -1,0 +1,47 @@
+{
+  "Identifier": {
+    "identifierValue": "10.26275/6b53-usyr",
+    "identifierType": "DOI"
+  },
+  "Title": [
+    {
+      "titleValue": "f"
+    }
+  ],
+  "Creator": [
+    {
+      "creatorName": "Emma Bardsley",
+      "nameType": "Organizational"
+    }
+  ],
+  "PublicationYear": "05-11-2023",
+  "ResourceType": {
+    "resourceTypeValue": "AWS",
+    "resourceTypeGeneral": "Dataset"
+  },
+  "DatasetRecordKeys": {
+    "keysType": "Anonymised"
+  },
+  "DatasetDeIdentLevel": {
+    "deIdentType": "NotKnown",
+    "deIdentDirect": true,
+    "deIdentHIPAA": true,
+    "deIdentDates": true,
+    "deIdentNonarr": true,
+    "deIdentKAnon": true
+  },
+  "DatasetConsent": {
+    "consentType": "NoExplicitConsent",
+    "consentNoncommercial": true,
+    "consentGeogRestrict": true,
+    "consentResearchType": true,
+    "consentGeneticOnly": true,
+    "consentNoMethods": true
+  },
+  "ManagingOrganisation": {
+    "name": "SPARC"
+  },
+  "AccessType": "PublicOnScreenAccess",
+    "AccessDetails":{"description":"Stellate ganglia of 15-16 week old Wistar and Spontaneously Hypertensive Rats were analyzed by: RNA-sequencing, differential analysis, and gene ontology analysis. Data were analyzed by a pipeline consisting of Salmon, DESeq2, and clusterprofiler."},
+     "Publisher": "Geological Institute, University of TokyoGitHub"
+}

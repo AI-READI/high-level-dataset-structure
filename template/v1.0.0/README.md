@@ -20,9 +20,9 @@ http://dx.doi.org/10.1038/s41598-018-26651-7
 You can access to the data [here](https://docs.sparc.science/docs/navigating-a-sparc-dataset). 
 
 ## The standards
-Data was analyzed by a pipeline consisting of Salmon, DESeq2, and cluster profile.## Mentions
-Of any external resources that was use for collecting/analyzing/processing the data or may be required/useful to reuse the data
-(e.g. the study website, the documentation website, software used to collected the data, etc.). Make sure to include identifiers and/or links to the resources.
+Data was analyzed by a pipeline consisting of Salmon, DESeq2, and cluster profile.
+
+## Mentions
 
 ## License
  [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
