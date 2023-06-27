@@ -72,7 +72,7 @@ Each version of the BCSD standard are stored in a dedicated folder under the `ve
 
 Contributions are always welcome!
 
-Use the [GitHub issues](https://github.com/AI-READI/high-level-dataset-structure/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the `main` folder of the main branch if making suggestions on the last released version of the BCDS or on the `main` folder of the staging branch if making suggestions on the lastest draft version (suggested).
+Use the [GitHub issues](https://github.com/AI-READI/high-level-dataset-structure/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the `main` folder of the main branch if making suggestions on the last released version of the BCDS or on the `main` folder of the staging branch if making suggestions on the lastest draft version (suggested). Make sure to read our [Contributing guidelines](CONTRIBUTING.md).
 
 ## License
 
