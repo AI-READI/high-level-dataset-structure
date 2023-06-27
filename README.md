@@ -62,7 +62,7 @@ We are developing the BCDS at part of the AI-READI project where we identified a
 The specifications of the latest released version of the BCSD can be found [here](main). 
 
 ## Structure of this repository
-Each version of the BCSD standard are stored in a dedicated folder under the `versions` folder, with the latest version. An assessment of the compliance of the BCSD with the relevant FAIR principles is also included with each version. The `main` folder contain a copy of the latest released version where edits/suggestions can be made via pull request. At the time of the release of a new version of the BCSD, the version in the `main` folder will be copied in the `versions` folder and renamed after the new version number. Changes between the different versions are tracked in the [CHANGELOG](CHANGELOG.md) file. 
+Each version of the BCSD standard are stored in a dedicated folder under the `versions` folder. An assessment of the compliance of the BCSD with the relevant FAIR principles is also included with each version. The corresponding templates are in the `template` folder. The `main` folder contain a copy of the latest released version where edits/suggestions can be made via pull request. At the time of the release of a new version of the BCSD, the version in the `main` folder will be copied in the `versions` folder and renamed after the new version number. Changes between the different versions are tracked in the [CHANGELOG](CHANGELOG.md) file. 
 
 ## Contributing
 
