@@ -8,22 +8,42 @@
       "titleValue": "RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats"
     }
   ],
+  "Version": "v.1.0.0",
+  "AlternateIdentifier": [
+    {
+      "alternateIdentifierValue": "NONE",
+      "alternateIdentifierType": "DOI"
+    }
+  ],
   "Creator": [
     {
       "creatorName": "Emma Bardsley",
       "nameType": "Organizational"
     }
   ],
+  "Contributor": [
+    {
+      "contributorType": "ContactPerson",
+      "contributorName": "Harvey Davis,Emma Bardsley,David Paterson",
+      "nameType": "Personal"
+    }
+  ],
   "PublicationYear": "05-11-2023",
+  "Date": [
+    {
+      "dateValue": "2004-03-02",
+      "dateType": "Accepted"
+    }
+  ],
   "ResourceType": {
-    "resourceTypeValue": "AWS",
+    "resourceTypeValue": "AWC",
     "resourceTypeGeneral": "Dataset"
   },
   "DatasetRecordKeys": {
     "keysType": "Anonymised"
   },
   "DatasetDeIdentLevel": {
-    "deIdentType": "NotKnown",
+    "deIdentType": "NoDeIdentification",
     "deIdentDirect": true,
     "deIdentHIPAA": true,
     "deIdentDates": true,
@@ -38,10 +58,54 @@
     "consentGeneticOnly": true,
     "consentNoMethods": true
   },
+  "Description": [
+    {
+      "descriptionType": "Abstract",
+      "descriptionValue": "In this study, RNA-sequencing is used to identify transcriptional differences in the sympathetic stellate ganglia between the 16-week-old normotensive Wistar strain and the spontaneously hypertensive rat, SHR, strain. This dataset should allow for further molecular characterization of hypertensive changes in a cardiac-innervating sympathetic ganglion.\n\nData Collection: RNA-sequencing analysis of dataset derived from 10.1038/sdata.2018.123 and https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110197 (Gene expression omnibus GSE110197). The analysis contains differential expression analysis and gene ontology analysis of Wistar vs SHR right stellate ganglion comparison at 15-16 weeks of age. Data was analyzed by a pipeline consisting of Salmon, DESeq2, and cluster profile.\n\nPrimary Conclusion: none stated"
+    }
+  ],
+  "Language": "english",
+  "RelatedIdentifier": [
+    {
+      "relatedIdentifierValue": "RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats",
+      "relatedIdentifierType": "DOI",
+      "relationType": "Describes",
+      "schemeType": "DDT"
+    }
+  ],
+  "Subject": [
+    {
+      "subjectValue": "subject"
+    }
+  ],
   "ManagingOrganisation": {
     "name": "SPARC"
   },
   "AccessType": "PublicOnScreenAccess",
-    "AccessDetails":{"description":"Stellate ganglia of 15-16 week old Wistar and Spontaneously Hypertensive Rats were analyzed by: RNA-sequencing, differential analysis, and gene ontology analysis. Data were analyzed by a pipeline consisting of Salmon, DESeq2, and clusterprofiler."},
-     "Publisher": "Geological Institute, University of TokyoGitHub"
+  "AccessDetails": {
+    "description": " Stellate ganglia of 15-16 week old Wistar and Spontaneously Hypertensive Rats were analyzed by: RNA-sequencing, differential analysis, and gene ontology analysis. Data were analyzed by a pipeline consisting of Salmon, DESeq2, and clusterprofiler."
+  },
+  "Rights": [
+    {
+      "rightsValue": "CC-BY-4.0",
+      "rightsURI": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "Publisher": "Geological Institute, University of TokyoGitHub",
+  "FundingReference": [
+    {
+      "funderName": "NSF"
+    }
+  ],
+  "RelatedItem": [
+    {
+      "relatedItemType": "ConferencePaper",
+      "relationType": "Describes",
+      "relatedItemIdentifier": [
+        {
+          "relatedItemIdentifierValue": "RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats"
+        }
+      ]
+    }
+  ]
 }
