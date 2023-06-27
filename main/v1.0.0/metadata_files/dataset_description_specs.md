@@ -21,27 +21,4 @@ This metadata file must be in the JSON format. The full name with extension must
 This metadata file must be located at the highest-level/root-level of the dataset.
 
 ### Content
-This metadata file must be structured as per the [DataCite JSON specifications](https://doi.org/10.5438/1pca-1y05). 
-The keys in this json file and their values must follow the [DataCite Metadata Schema 4.4](https://doi.org/10.14454/3w3z-sa82) with the 
-[ECRIN Metadata Schema v6.0 extension](https://doi.org/10.5281/zenodo.5554961) (indicated with a * in the table below). 
-All the keys listed in the table below and their subkeys be included with an associated value when available. 
-
-|       Keys                                                                                
-|:----------------------------------------------------------------------------------------:
-| `Identifier`                                                                            
-| `Creator`                                                      
-| `Title`                                                    
-| `Publisher`                                                      
-| `PublicationYear`
-| `ResourceType` (with `resourceTypeGeneral` set to `Dataset` being mandatory)
-| `Subject`
-| `Contributor`
-| `Date` (with `dateType` set to `Created` being mandatory)
-| `Language`
-| `RelatedIdentifier`
-| `Size`
-| `Version`
-| `Rights`
-| `Description`
-| `FundingReference`
-| `StudyTitle`*
+This metadata file must be structured as per the schema provided [here](../schemas/dataset_description.schema.json). The schema is based on the [DataCite Metadata Schema 4.4](https://doi.org/10.14454/3w3z-sa82) with some of the [ECRIN Metadata Schema v6.0 extension](https://doi.org/10.5281/zenodo.5554961) and along with some customization that were deemed required for the BCDS. 
