@@ -19,5 +19,4 @@ This metadata file must be in the JSON format. The full name with extension must
 This metadata file must be located at the highest-level/root-level of the dataset.
 
 ### Content
-This metadata file must be structured as per the [ECRIN Metadata Schema v6.0 extension](https://doi.org/10.5281/zenodo.5554961). 
-All the keys listed in the table below and their subkeys be included with an associated value when available. [Keys to be added later]
+This metadata file must be structured as per the schema provided [here](../schemas/study_description_schema.json). The schema is based on the [ClinicalTrials.gov study structure JSON schema](https://classic.clinicaltrials.gov/api/gui/ref/study_structure) with some of the [ECRIN Metadata Schema v6.0 extension](https://doi.org/10.5281/zenodo.5554961) and along with some customizations that were deemed required for the BCDS.
