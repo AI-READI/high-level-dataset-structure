@@ -19,20 +19,18 @@ This metadata file must be in the markdown format. The full name with extension 
 This metadata file must be located at the highest-level/root-level of the dataset.
 
 ### Content
-This file must contain the information listed below. It is suggested to follow the structure provided in the [template](../../../template). 
-- Name of the dataset
-- Current version of the dataset
-- Date the current version was published
-- DOI or other identifier of the dataset
-- High-level description of the dataset and the associated study
-- Detailed description of the dataset. Include the number of study participants and their characteristics 
-(refer to the [participants.json file](participants_specs.md) in your dataset for additional information), the data types collected, the overall number of files and total size of the dataset.
-- How the dataset can be accessed and any conditions/restrictions for accessing it.
-- The standards followed to structure the dataset, format of the data files, etc. Make sure to include identifiers of the standards 
-when available and/or link to the associated documentation.
-- Mention to any external resources that was use for collecting/analyzing/processing the data or may be required/useful to reuse the data
-(e.g. the study website, the documentation website, software used to collected the data, etc.). Make sure to include identifiers and/or links to the resources.
-- Name of the data reuse license and brief description of the terms for reusing the data (refer to the [LICENSE.txt](license_specs.md) file in your dataset for additional details).
-- Instructions on how to cite the dataset if reused (use the [American Psychological Association (APA) style](https://apastyle.apa.org/))
-- Acknowledgement to the funding source and other with identifiers and/or links as applicable.
+It is suggested to follow the structure provided in the [template](../../../template). Specifically, this file must contain the information listed below when applicable. It is also suggested to use the section titles listed below for consistency.
+- Include the name of the dataset at the top of the file
+- **Latest version number**: In this section, indicate the latest version number of the published dataset.
+- **Publication date**: In this section, indicate the date when the latest version of the dataset was published (i.e., made available outside of the project members openly or through a restricted access).
+- **Identifier**: In this section, indicate the DOI or any other identifier of the latest version of the dataset
+- **Overview**: In this section, provide a high-level description of the dataset and the associated study, similar to the abstract of a paper
+- **Description**: In this section, provide a more detailed description of the dataset. Include the number of study participants and their characteristics 
+(refer to the [participants.json file](participants_specs.md) in your dataset for additional information), the data types collected, the overall number of files and total size of the dataset (as available).
+- **Dataset access/restrictions**: In this section, how the dataset can be accessed and any conditions/restrictions for accessing it.
+- **Data standards**: In this section, indicate the standards followed to structure the dataset, format of the data files, etc. Make sure to include identifiers of the standards when available and/or link to the associated documentation.
+- **Resources**: In this section, mention any external resources that was used for collecting/analyzing/processing the data or may be required/useful to reuse the data (e.g. the study website, the documentation website, software used to collected the data, etc.). Make sure to include identifiers and/or links to the resources.
+- **License**: In this section, mention the name of the data reuse license (refer to the [LICENSE.txt](license_specs.md) file in your dataset for additional details).
+- **How to cite**: In this section, provide instructions on how to cite the dataset if reused (use the [American Psychological Association (APA) style](https://apastyle.apa.org/))
+- **Acknowledgement**: In this section, provide acknowledgement to the funding source and other with identifiers and/or links as applicable.
 
