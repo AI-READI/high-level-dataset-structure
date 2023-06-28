@@ -18,21 +18,50 @@
   "Creator": [
     {
       "creatorName": "Emma Bardsley",
-      "nameType": "Organizational"
+      "nameType": "Organizational",
+      "nameIdentifier": [
+        {
+          "nameIdentifierValue": "unique",
+          "nameIdentifierScheme": "ISNI",
+          "schemeURI": "https://isni.org"
+        }
+      ],
+      "affiliation": [
+        {
+          "affiliationIdentifier": "5467gf",
+          "affiliationIdentifierScheme": "ORCID",
+          "SchemeURI": "https://orcid.org"
+        }
+      ]
     }
   ],
   "Contributor": [
     {
       "contributorType": "ContactPerson",
       "contributorName": "Harvey Davis,Emma Bardsley,David Paterson",
-      "nameType": "Personal"
+      "nameType": "Personal",
+      "nameIdentifier": [
+        {
+          "nameIdentifierValue": "id145",
+          "nameIdentifierScheme": "ORCID",
+          "schemeURI": "https://ror.org, https://isni.org"
+        }
+      ],
+      "affiliation": [
+        {
+          "affiliationIdentifier": "5467gf",
+          "affiliationIdentifierScheme": "ORCID",
+          "SchemeURI": "https://orcid.org"
+        }
+      ]
     }
   ],
-  "PublicationYear": "05-11-2023",
+  "PublicationYear": "2023",
   "Date": [
     {
-      "dateValue": "2004-03-02",
-      "dateType": "Accepted"
+      "dateValue": "2023-03-02",
+      "dateType": "Accepted",
+      "dateInformation": "Additional information "
     }
   ],
   "ResourceType": {
@@ -40,7 +69,8 @@
     "resourceTypeGeneral": "Dataset"
   },
   "DatasetRecordKeys": {
-    "keysType": "Anonymised"
+    "keysType": "Anonymised",
+    "keysDetails": "further details"
   },
   "DatasetDeIdentLevel": {
     "deIdentType": "NoDeIdentification",
@@ -48,7 +78,8 @@
     "deIdentHIPAA": true,
     "deIdentDates": true,
     "deIdentNonarr": true,
-    "deIdentKAnon": true
+    "deIdentKAnon": true,
+    "deIdentDetails": "further details"
   },
   "DatasetConsent": {
     "consentType": "NoExplicitConsent",
@@ -56,45 +87,71 @@
     "consentGeogRestrict": true,
     "consentResearchType": true,
     "consentGeneticOnly": true,
-    "consentNoMethods": true
+    "consentNoMethods": true,
+    "consentsDetails": "further details "
   },
   "Description": [
     {
-      "descriptionType": "Abstract",
-      "descriptionValue": "In this study, RNA-sequencing is used to identify transcriptional differences in the sympathetic stellate ganglia between the 16-week-old normotensive Wistar strain and the spontaneously hypertensive rat, SHR, strain. This dataset should allow for further molecular characterization of hypertensive changes in a cardiac-innervating sympathetic ganglion.\n\nData Collection: RNA-sequencing analysis of dataset derived from 10.1038/sdata.2018.123 and https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110197 (Gene expression omnibus GSE110197). The analysis contains differential expression analysis and gene ontology analysis of Wistar vs SHR right stellate ganglion comparison at 15-16 weeks of age. Data was analyzed by a pipeline consisting of Salmon, DESeq2, and cluster profile.\n\nPrimary Conclusion: none stated"
+      "descriptionValue": "In this study, RNA-sequencing is used to identify transcriptional differences in the sympathetic stellate ganglia between the 16-week-old normotensive Wistar strain and the spontaneously hypertensive rat, SHR, strain. This dataset should allow for further molecular characterization of hypertensive changes in a cardiac-innervating sympathetic ganglion.\n\nData Collection.",
+      "descriptionType": "Abstract"
     }
   ],
-  "Language": "english",
+  "Language": "eng",
   "RelatedIdentifier": [
     {
       "relatedIdentifierValue": "RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats",
       "relatedIdentifierType": "DOI",
       "relationType": "Describes",
-      "schemeType": "DDT"
+      "relatedMetadataScheme": "HasMetadata",
+      "schemeURI": "https://id.loc.gov/authorities/subjects/sh85118622.html",
+      "schemeType": "DDT",
+      "resourceTypeGeneral": "ConferencePaper"
     }
   ],
   "Subject": [
     {
-      "subjectValue": "subject"
+      "subjectValue": "subject",
+      "subjectScheme": "ANZSRC Fields of Research",
+      "schemeURI": "https://id.loc.gov/authorities/subjects.html",
+      "valueURI": "https://id.loc.gov/authorities/subjects/sh85118622.html",
+      "classificationCode": "4532"
     }
   ],
   "ManagingOrganisation": {
-    "name": "SPARC"
+    "name": "SPARC",
+    "rorId": "14537"
   },
   "AccessType": "PublicOnScreenAccess",
   "AccessDetails": {
-    "description": " Stellate ganglia of 15-16 week old Wistar and Spontaneously Hypertensive Rats were analyzed by: RNA-sequencing, differential analysis, and gene ontology analysis. Data were analyzed by a pipeline consisting of Salmon, DESeq2, and clusterprofiler."
+    "description": " Stellate ganglia of 15-16 week old Wistar and Spontaneously Hypertensive Rats were analyzed",
+    "url": "https://ror.org",
+    "urlLastChecked": "2018-01-10T06:14:00Z"
   },
   "Rights": [
     {
       "rightsValue": "CC-BY-4.0",
-      "rightsURI": "https://creativecommons.org/licenses/by/4.0/"
+      "rightsURI": "https://creativecommons.org/licenses/by/4.0/",
+      "rightsIdentifier": "CC-BY-4.0",
+      "rightsIdentifierScheme": "SPDX"
     }
   ],
   "Publisher": "Geological Institute, University of TokyoGitHub",
+  "Size": [
+    "bytes"
+  ],
   "FundingReference": [
     {
-      "funderName": "NSF"
+      "funderName": "NSF",
+      "funderIdentifier": {
+        "funderIdentifierValue": "12543GF3",
+        "funderIdentifierType": "GRID",
+        "SchemeURI": "https://ror.org"
+      },
+      "awardNumber": {
+        "awardNumberValue": "GBMF3859",
+        "awardURI": "https://doi.org/10.35802/221400"
+      },
+      "awardTitle": "The Moore-Sloan Data Science Environments"
     }
   ],
   "RelatedItem": [
@@ -104,6 +161,36 @@
       "relatedItemIdentifier": [
         {
           "relatedItemIdentifierValue": "RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats"
+        }
+      ],
+      "creator": [
+        {
+          "creatorName": "creatorname",
+          "nameType": "Personal"
+        }
+      ],
+      "title": [
+        {
+          "titleValue": "RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats",
+          "titleType": "AlternativeTitle"
+        }
+      ],
+      "publicationYear": "2018",
+      "volume": "123",
+      "issue": "21",
+      "number": {
+        "numberValue": "Article",
+        "numberType": "Article"
+      },
+      "firstPage": "name",
+      "lastPage": "lastname",
+      "publisher": "World Data Center for Climate (WDCC)",
+      "edition": "Conference",
+      "contributor": [
+        {
+          "contributorType": "ContactPerson",
+          "contributorName": "Adam Smith",
+          "nameType": "Personal"
         }
       ]
     }
