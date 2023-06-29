@@ -35,7 +35,7 @@ A standardized, universal high-level dataset structure for interoperable and reu
 </p>
    
 <h4>
-    <a href="https://github.com/AI-READI/high-level-dataset-structure/issues/">Report Bug</a>
+    <a href="https://github.com/AI-READI/high-level-dataset-structure/issues/">Report Issues/Make suggestions</a>
   </h4>
 </div>
 
@@ -46,13 +46,13 @@ A standardized, universal high-level dataset structure for interoperable and reu
 ## About
 Clinical research studies typically collect multimodal data that can be organized in many different ways. There is no consensus so far on how to organize and share multimodal data and metadata into a structured dataset. This lack of a standard leads to difficulties in understanding datasets and time wasted on rearranging data both of which obstruct the optimal reuse of datasets.
 
-The Clinical Dataset Structure (CDS) is a simple and intuitive standard for the high-level organization of clinical research data. It prescribes a folder structure for organizing a dataset at the highest level (i.e., root-level) into one folder per data type wherein data type-specific standard structures can then be followed within each folder. It also prescribes several metadata files to be included at the highest level of the dataset structure to facilitate human and machine reusability of the dataset. 
+The Clinical Dataset Structure (CDS) is a simple and intuitive standard for the high-level organization of clinical research data. It prescribes a folder structure for organizing a dataset at the highest level (i.e., root-level) into one folder per data type wherein data type-specific standard structures can then be followed within each folder. It also prescribes several metadata files to be included at the highest level of the dataset structure for documenting relevant information about the data. 
 
-The goal of the CDS is to increase the interoperability and reusabiliy of clinical research data. This is crucial to faciliate the understanding of a dataset and also enable combining different datasets together for statistical analysis, AI/ML-based modeling, and such.
+All together, the CDS is designed to facilitate reusability of the dataset by humans and machines by making it intuitive to navigate and exposing information they may need when looking at the dataset (What is the dataset about? How many participants are in the study? What data types where collected, etc.). This is crucial to faciliate the understanding of a dataset and also enable combining different datasets together easily for statistical analysis, AI/ML-based modeling, and such.
 
 We are developing the CDS at part of the AI-READI project where we identified a gap in organizing multimodal data into a standard structure. This repository contains details about the CDS specifications and templates to help implement them.
 
-Note: While the focus of the CDS is on clinical research data, the CDS could be used/adapted for pre-clinical (non-human) research data and clinical trial data but this may required further effort.
+Note: While the focus of the CDS is on clinical research data, the CDS could be used/adapted for pre-clinical (non-human) research data and clinical trial data but this may require further effort.
 
 <div align="center">
     <img src="main/v1.0.0/CDS_example.png" alt="CDS example" width="400" height="auto" />
