@@ -5,10 +5,10 @@
   },
   "Title": [
     {
-      "titleValue": "RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats"
+      "titleValue": "Flagshit Dataset of Type 2 Diabetes from the AI-READI Project"
     }
   ],
-  "Version": "v.1.0.0",
+  "Version": "v1.0.0",
   "AlternateIdentifier": [
     {
       "alternateIdentifierValue": "NONE",
@@ -56,12 +56,12 @@
       ]
     }
   ],
-  "PublicationYear": "2022",
+  "PublicationYear": "2023",
   "Date": [
     {
-      "dateValue": "2022-11-30",
+      "dateValue": "2023-12-31",
       "dateType": "Accepted",
-      "dateInformation": "Additional information "
+      "dateInformation": "The dataset was published publicly on Zenodo on this date"
     }
   ],
   "ResourceType": {
@@ -73,7 +73,7 @@
     "keysDetails": "further details"
   },
   "DatasetDeIdentLevel": {
-    "deIdentType": "NoDeIdentification",
+    "deIdentType": "DeIdentificationApplied",
     "deIdentDirect": true,
     "deIdentHIPAA": true,
     "deIdentDates": true,
@@ -92,18 +92,18 @@
   },
   "Description": [
     {
-      "descriptionValue": "The Biomedical and Clinical Dataset Structure (BCDS) is a standard for the high-level organization of biomedical and clinical research data. It prescribes a folder structure for organizing a dataset at the highest level (i.e., root-level structure as seen on a computer when it is downloaded) into one folder per data type wherein data type-specific standard structures can then be followed for each data type within that folder.",
+      "descriptionValue": "This dataset contain data from 20 participants from the pilot study of the project. Details about the participants of the study are provided in the participants.json metadata file. Data from multiple modalities are collected. A full list is provided in the "Data Standards" section below. The data in this dataset has been deidentified using awesome tools x, y, z and contain no personel health information (PHI).",
       "descriptionType": "Abstract"
     }
   ],
   "Language": "eng",
   "RelatedIdentifier": [
     {
-      "relatedIdentifierValue": "We are developing the BCDS at part of the AI-READI project where we identified a gap in organizing multimodal data into a standard structure. ",
+      "relatedIdentifierValue": "10.5281/zenodo.7641684",
       "relatedIdentifierType": "DOI",
       "relationType": "Describes",
       "relatedMetadataScheme": "HasMetadata",
-      "schemeURI": "https://id.loc.gov/authorities/subjects/sh85118622.html",
+      "schemeURI": "https://doi.org/10.5281/zenodo.7641684",
       "schemeType": "DDT",
       "resourceTypeGeneral": "ConferencePaper"
     }
@@ -118,7 +118,7 @@
     }
   ],
   "ManagingOrganisation": {
-    "name": "Bridge2AI",
+    "name": "AI-READI project",
     "rorId": "14537"
   },
   "AccessType": "PublicOnScreenAccess",
@@ -129,13 +129,13 @@
   },
   "Rights": [
     {
-      "rightsValue": "zenodo.7363102",
-      "rightsURI": "https://github.com/AI-READI/fairhub.io/blob/main/LICENSE",
+      "rightsValue": "Creative Commons Attribution 4.0 International License",
+      "rightsURI": "http://creativecommons.org/licenses/by/4.0/",
       "rightsIdentifier": "CC-BY-4.0",
       "rightsIdentifierScheme": "SPDX"
     }
   ],
-  "Publisher": "Geological Institute, University of TokyoGitHub",
+  "Publisher": "Zenodo",
   "Size": [
     "bytes"
   ],
