@@ -1,46 +1,37 @@
 
-# RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats
+# AI-READi
 
-In this study, RNA-sequencing is used to identify transcriptional differences in the sympathetic stellate ganglia between the 16-week-old normotensive Wistar strain and the spontaneously hypertensive rat, SHR, strain. This dataset should allow for further molecular characterization of hypertensive changes in a cardiac-innervating sympathetic ganglion.
 
-This version of the dataset was published on $publication_date. It is archived at $identifier.
+## Latest version number
+ V.1.0.0
 
---------------------------------
+## Publication date
+November 30, 2022
+
+## Identifier
+10.5281/zenodo.7363102
+
+## Overview
+The AI-READI project seeks to create and share a flagship ethically-sourced dataset of type 2 diabetes. The data will be optimized for future artificial intelligence/machine learning (AI/ML) analysis that could provide critical insights and especially shine a light on the salutogenic pathways from diabetes to return to health. Six cross-disciplinary project modules involving teams located across eight institutions will work together to develop this flagship dataset.
 
 ## Description
-Stellate ganglia of 15-16 week old Wistar and Spontaneously Hypertensive Rats were analyzed by: RNA-sequencing, differential analysis, and gene ontology analysis. Data were analyzed by a pipeline consisting of Salmon, DESeq2, and clusterprofiler.
+In this study, 1000 participants have been participated.
 
-## Current version
- Version 3, Revision 0; May 13, 2021
+## Dataset access/restrictions
+This dataset is publicly accessible.
 
-## DOI
-http://dx.doi.org/10.1038/s41598-018-26651-7
-
-## Accessibility
-You can access to the data [here](https://docs.sparc.science/docs/navigating-a-sparc-dataset). 
-
-## The standards
-Data was analyzed by a pipeline consisting of Salmon, DESeq2, and cluster profile.
-
-## Mentions
-
-## License
- [CC-BY-4.0](https://creativecommons.org/licenses/by/4.0/)
-
-## How to cite
-To promote reproducibility and give credit to investigators who publish their data, we recommend citing your usage of SPARC datasets. To make it easy, the SPARC Portal provides the full data citation, including the option of different formats, under the Cite tab of each dataset page
-### APA
-Davis, H., Bardsley, E., & Paterson, D. (2023). RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats (Version 3) [Data set]. SPARC Consortium. https://doi.org/10.26275/6B53-USYR
-### Chicago
-Davis, Harvey, Emma Bardsley, and David Paterson. “RNA Sequencing Reveals Novel Transcripts from Sympathetic Stellate Ganglia during Cardiac Sympathetic Hyperactivity in Rats.” SPARC Consortium, 2023. https://doi.org/10.26275/6B53-USYR.
-### IEEE
-[1] H. Davis, E. Bardsley, and D. Paterson, “RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats.” SPARC Consortium, 2023. doi: 10.26275/6B53-USYR.
-
-### Bibtex
- @misc{Davis_Bardsley_Paterson_2023, title={RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats}, url={https://sparc.science/datasets/139/version/3}, DOI={10.26275/6B53-USYR}, abstractNote={Stellate ganglia of 15-16 week old Wistar and Spontaneously Hypertensive Rats were analyzed by: RNA-sequencing, differential analysis, and gene ontology analysis. Data were analyzed by a pipeline consisting of Salmon, DESeq2, and clusterprofiler.}, publisher={SPARC Consortium}, author={Davis, Harvey and Bardsley, Emma and Paterson, David}, year={2023} }
+## Data standards
+The goal of the Standards is to establish a set of formatting requirements for the different types of data that will be collected for the AI-READI dataset. The Standards Module works to streamline the development of AI models for researchers who access the AI-READI dataset. Standardized data will facilitate data sharing as well as evaluation and reproducibility of study results.
 
 ## Resources
-RNA-sequencing analysis of dataset derived from 10.1038/sdata.2018.123 and [Gene expression omnibus GSE110197](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE110197).
+Leveraging a partnership with Microsoft, fairhub.io will be developed using Azure Cloud Services. The platform will include convenient tools to track clinical and biomedical data collection, prepare and share FAIR data, and conveniently access data for future AI/ML analysis.
+In addition, the Tools module will support the effort of the Data Acquisition module by setting up and managing additional tools such REDCap.
 
-## Acknowledgements
-We acknowledge The High-Throughput Genomics Group at the Wellcome Trust Centre for Human Genetics (funded by Wellcome Trust grant reference 090532/Z/09/Z) for the generation of the Sequencing data. We would like to acknowledge the Wellcome Trust OXION initiative (105409/Z/14/Z), the British Heart Foundation Centre of Research Excellence and BHF (RG/17/14/33085), NIH SPARC (OT2OD023848) and new innovator (DP2HL142045) initiatives for supporting this research.
+## License
+This work is licensed under [MIT](https://opensource.org/license/mit/). See [LICENSE](https://github.com/AI-READI/fairhub.io/blob/main/LICENSE) for more information.
+
+## How to cite
+ You can cite all versions by using the [DOI](https://zenodo.org/record/7363102). 
+
+## Acknowledgement
+This project is supported by the NIH-funded Bridge2AI program (1OT2OD032644). The content is solely the responsibility of the authors and does not necessarily represent the official views of the NIH.
