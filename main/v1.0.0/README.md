@@ -23,9 +23,6 @@ The following metadata files must be included at the highest/root level of the d
 - [CHANGELOG.md](metadata_files/changelog_specs.md): A metadata file containing information about the changes between different versions of the dataset that are released. See [here](metadata_files/changelog_specs.md) for specifications about this metadata file. 
 - [LICENSE.txt](metadata_files/license_specs.md): A metadata file containing the terms under which the dataset is shared. See [here](metadata_files/license_specs.md) for specifications about this metadata file. 
 
-If the dataset includes data from samples (e.g., cells, tissues, etc.) the following metadata files must be included:
-- [samples.tsv and samples.json](metadata_files/samples_specs.md): Metadata files containing basic information about the samples used in the study. The samples.tsv file contains the information while the sample.json file acts as a sidecar that describes the columns in the samples.tsv file. See [here](metadata_files/samples_specs.md) for specifications about these metadata files. 
-
 ## Compliance with FAIR principles
 An explanation of how the CDS help complying with relevant FAIR principles is provided [here](compliance_FAIR.md). 
 
