@@ -4,10 +4,10 @@
 
 <br />
 
-<h1> Biomedical and Clinical Dataset Structure (BCDS) </h1>
+<h1> Clinical Dataset Structure (CDS) </h1>
 
 <p>
-A standardized, universal high-level dataset structure for interoperable and reusable biomedical and clinical research data
+A standardized, universal high-level dataset structure for interoperable and reusable clinical research data
 </p>
 
 <br />
@@ -44,25 +44,27 @@ A standardized, universal high-level dataset structure for interoperable and reu
 ---
 
 ## About
-Biomedical and clinical research projects often results in complicated data, generally multimodal, that can be organized in many different ways. There is no consensus so far on how to organize and share multimodal data and metadata into a structured dataset. This lack of a standard leads to difficulties in understanding datasets and time wasted on rearranging data both of which obstruct the optimal reuse of datasets.
+Clinical research studies typically collect multimodal data that can be organized in many different ways. There is no consensus so far on how to organize and share multimodal data and metadata into a structured dataset. This lack of a standard leads to difficulties in understanding datasets and time wasted on rearranging data both of which obstruct the optimal reuse of datasets.
 
-The Biomedical and Clinical Dataset Structure (BCDS) is a simple and intuitive standard for the high-level organization of biomedical and clinical research data. It is designed for data from both human and non-human research studies. It prescribes a folder structure for organizing a dataset at the highest level (i.e., root-level) into one folder per data type wherein data type-specific standard structures can then be followed within each folder. It also prescribes several metadata files to be included at the highest level of the dataset structure to facilitate human and machine reusability of the dataset. 
+The Clinical Dataset Structure (CDS) is a simple and intuitive standard for the high-level organization of clinical research data. It prescribes a folder structure for organizing a dataset at the highest level (i.e., root-level) into one folder per data type wherein data type-specific standard structures can then be followed within each folder. It also prescribes several metadata files to be included at the highest level of the dataset structure to facilitate human and machine reusability of the dataset. 
 
-The goal of the BDCS is to increase the interoperability and reusabiliy of biomedical/clinical research data. This is crucial to faciliate the understanding of a dataset and also enable combining different datasets together for statistical analysis, AI/ML-based modeling, and such.
+The goal of the CDS is to increase the interoperability and reusabiliy of bclinical research data. This is crucial to faciliate the understanding of a dataset and also enable combining different datasets together for statistical analysis, AI/ML-based modeling, and such.
 
-We are developing the BCDS at part of the AI-READI project where we identified a gap in organizing multimodal data into a standard structure. This repository contains details about the BCDS specifications and templates to help implement them.
+We are developing the CDS at part of the AI-READI project where we identified a gap in organizing multimodal data into a standard structure. This repository contains details about the CDS specifications and templates to help implement them.
+
+Note: While the focus of the CDS is on clinical research data, the CDS could be used/adapted for pre-clinical (non-human) research data and clinical trial data but this may required further effort.
 
 <div align="center">
-    <img src="main/v1.0.0/BCDS_example.png" alt="BCDS example" width="400" height="auto" />
-    <p><i> Illustration of a dataset (two data types - electrocardiogram and optical coherence tomography, and no samples) structured following the BCDS. </i></p>
+    <img src="main/v1.0.0/CDS_example.png" alt="CDS example" width="400" height="auto" />
+    <p><i> Illustration of a dataset with two data types (electrocardiogram and optical coherence tomography) structured following the CDS. </i></p>
 </div>
 
 ## Specifications
 
-The specifications of the latest released version of the BCSD can be found [here](main). 
+The specifications of the latest released version of the CSD can be found [here](main). 
 
 ## Structure of this repository
-Each version of the BCSD standard are stored in a dedicated folder under the `versions` folder. An assessment of the compliance of the BCSD with the relevant FAIR principles is also included with each version. The corresponding templates are in the `template` folder. The `main` folder contain a copy of the latest released version where edits/suggestions can be made via pull request. At the time of the release of a new version of the BCSD, the version in the `main` folder will be copied in the `versions` folder and renamed after the new version number. Changes between the different versions are tracked in the [CHANGELOG](CHANGELOG.md) file. 
+Each version of the CSD standard are stored in a dedicated folder under the `versions` folder. An assessment of the compliance of the CSD with the relevant FAIR principles is also included with each version. The corresponding templates are in the `template` folder. The `main` folder contain a copy of the latest released version where edits/suggestions can be made via pull request. At the time of the release of a new version of the BCSD, the version in the `main` folder will be copied in the `versions` folder and renamed after the new version number. Changes between the different versions are tracked in the [CHANGELOG](CHANGELOG.md) file. 
 
 ## Contributing
 
@@ -72,7 +74,7 @@ Each version of the BCSD standard are stored in a dedicated folder under the `ve
 
 Contributions are always welcome!
 
-Use the [GitHub issues](https://github.com/AI-READI/high-level-dataset-structure/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the `main` folder of the main branch if making suggestions on the last released version of the BCDS or on the `main` folder of the staging branch if making suggestions on the lastest draft version (suggested). Make sure to read our [Contributing guidelines](CONTRIBUTING.md).
+Use the [GitHub issues](https://github.com/AI-READI/high-level-dataset-structure/issues) for submitting feedback or making suggestions. You can also fork the repository and submit a pull request with suggestions. Make your suggestions on the `main` folder of the main branch if making suggestions on the last released version of the CDS or on the `main` folder of the staging branch if making suggestions on the lastest draft version (suggested). Make sure to read our [Contributing guidelines](CONTRIBUTING.md).
 
 ## License
 
@@ -86,7 +88,7 @@ This work is licensed under a
 
 ## How to cite
 
-If you are using this software or reusing the source code from this repository for any purpose, please cite:
+If you are using the CDS or any of the associated effort, please cite:
 
 ```bash
     Coming soon
