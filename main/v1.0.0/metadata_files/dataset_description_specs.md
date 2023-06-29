@@ -21,4 +21,4 @@ This metadata file must be in the JSON format. The full name with extension must
 This metadata file must be located at the highest-level/root-level of the dataset.
 
 ### Content
-This metadata file must be structured as per the schema provided [here](../schemas/dataset_description.schema.json). The schema is based on the [DataCite Metadata Schema 4.4](https://doi.org/10.14454/3w3z-sa82) with some of the [ECRIN Metadata Schema v6.0 extension](https://doi.org/10.5281/zenodo.5554961) and along with some customization that were deemed required for the BCDS. 
+This metadata file must be structured as per the schema provided [here](../schemas/dataset_description.schema.json). The schema is based on the [DataCite Metadata Schema 4.4](https://doi.org/10.14454/3w3z-sa82) with some of the [ECRIN Metadata Schema v6.0 extension](https://doi.org/10.5281/zenodo.5554961) and along with some customization that were deemed required for the CDS. 

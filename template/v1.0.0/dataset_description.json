@@ -30,7 +30,7 @@
         {
           "affiliationIdentifier": "5467gf",
           "affiliationIdentifierScheme": "ORCID",
-          "SchemeURI": "https://orcid.org"
+          "schemeURI": "https://orcid.org"
         }
       ]
     }
@@ -51,7 +51,7 @@
         {
           "affiliationIdentifier": "5467gf",
           "affiliationIdentifierScheme": "ORCID",
-          "SchemeURI": "https://orcid.org"
+          "schemeURI": "https://orcid.org"
         }
       ]
     }

@@ -23,4 +23,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- First version of the BCDS specifications along with the associated template
+- First version of the CDS specifications along with the associated template

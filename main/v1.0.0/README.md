@@ -1,10 +1,10 @@
-# Biomedical and Clinical Dataset Structure (BCDS) v 1.0.0
+# Clinical Dataset Structure (CDS) v 1.0.0
 
 ## Definitions
 
 - The keywords "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in [RFC2119](https://www.ietf.org/rfc/rfc2119.txt).
-- Dataset: A set of data files and associated metadata files issued from a biomedical and/or clinical research study.
-- Data type: In a biomedical/clinical research study, multiple modalities of data are collected. We designate by data type data from a modality or a group of modalities than can collected and interpreted independently of other modalities.
+- Dataset: A set of data files and associated metadata files issued from clinical research study.
+- Data type: In a clinical research study, multiple modalities of data are collected. We designate by data type data from a modality or a group of modalities than can collected and interpreted independently of other modalities.
 
 ## Specifications
 
@@ -23,11 +23,8 @@ The following metadata files must be included at the highest/root level of the d
 - [CHANGELOG.md](metadata_files/changelog_specs.md): A metadata file containing information about the changes between different versions of the dataset that are released. See [here](metadata_files/changelog_specs.md) for specifications about this metadata file. 
 - [LICENSE.txt](metadata_files/license_specs.md): A metadata file containing the terms under which the dataset is shared. See [here](metadata_files/license_specs.md) for specifications about this metadata file. 
 
-If the dataset includes data from samples (e.g., cells, tissues, etc.) the following metadata files must be included:
-- [samples.tsv and samples.json](metadata_files/samples_specs.md): Metadata files containing basic information about the samples used in the study. The samples.tsv file contains the information while the sample.json file acts as a sidecar that describes the columns in the samples.tsv file. See [here](metadata_files/samples_specs.md) for specifications about these metadata files. 
-
 ## Compliance with FAIR principles
-An explanation of how the BCDS help complying with relevant FAIR principles is provided [here](compliance_FAIR.md). 
+An explanation of how the CDS help complying with relevant FAIR principles is provided [here](compliance_FAIR.md). 
 
 ## Example
 
@@ -36,8 +33,8 @@ A template with example is available in the [`template` folder](../../template).
 An illustration of a example dataset with two data types (electrocardiogram and optical coherence tomography) is shown below.
 
 <div align="center">
-    <img src="BCDS_example.png" alt="BCDS example" width="400" height="auto" />
-    <p><i> Illustration of a dataset (with two data types - electrocardiogram and optical coherence tomography, and no samples) structured following the BCDS. </i></p>
+    <img src="CDS_example.png" alt="CDS example" width="400" height="auto" />
+    <p><i> Illustration of a dataset with two data types (electrocardiogram and optical coherence tomography) structured following the CDS. </i></p>
 </div>
 
 

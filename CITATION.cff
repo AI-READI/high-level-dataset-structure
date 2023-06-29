@@ -1,4 +1,4 @@
-abstract: A standardized, universal high-level dataset structure for FAIR biomedical and clinical research data
+abstract: A standardized, universal high-level dataset structure for FAIR clinical research data
 authors:
   - affiliation: FAIR Data Innovations Hub, California Medical Innovations Institute
     email: bpatel@calmi2.org
@@ -27,7 +27,7 @@ keywords:
 license: CC-BY-4.0
 message: If you use this work, please cite it as below.
 repository-code: 'https://github.com/AI-READI/high-level-dataset-structure'
-title: Biomedical and Clinical Dataset Structure (BCDS)
+title: Clinical Dataset Structure (CDS)
 type: dataset
 url: 'https://aireadi.org/'
 version: 1.0.0
