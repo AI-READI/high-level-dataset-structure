@@ -1,0 +1,198 @@
+{
+  "Identifier": {
+    "identifierValue": "10.26275/6b53-usyr",
+    "identifierType": "DOI"
+  },
+  "Title": [
+    {
+      "titleValue": "Flagshit Dataset of Type 2 Diabetes from the AI-READI Project"
+    }
+  ],
+  "Version": "v1.0.0",
+  "AlternateIdentifier": [
+    {
+      "alternateIdentifierValue": "NONE",
+      "alternateIdentifierType": "DOI"
+    }
+  ],
+  "Creator": [
+    {
+      "creatorName": "Bhavesh Patel",
+      "nameType": "Organizational",
+      "nameIdentifier": [
+        {
+          "nameIdentifierValue": "unique",
+          "nameIdentifierScheme": "ORCID",
+          "schemeURI": "https://orcid.org/0000-0002-0307-262X"
+        }
+      ],
+      "affiliation": [
+        {
+          "affiliationIdentifier": "5467gf",
+          "affiliationIdentifierScheme": "ORCID",
+          "schemeURI": "https://orcid.org"
+        }
+      ]
+    }
+  ],
+  "Contributor": [
+    {
+      "contributorType": "ContactPerson",
+      "contributorName": "Bhavesh Patel",
+      "nameType": "Personal",
+      "nameIdentifier": [
+        {
+          "nameIdentifierValue": "id145",
+          "nameIdentifierScheme": "ORCID",
+          "schemeURI": "https://ror.org, https://isni.org"
+        }
+      ],
+      "affiliation": [
+        {
+          "affiliationIdentifier": "5467gf",
+          "affiliationIdentifierScheme": "ORCID",
+          "schemeURI": "https://orcid.org"
+        }
+      ]
+    }
+  ],
+  "PublicationYear": "2023",
+  "Date": [
+    {
+      "dateValue": "2023-12-31",
+      "dateType": "Accepted",
+      "dateInformation": "The dataset was published publicly on Zenodo on this date"
+    }
+  ],
+  "ResourceType": {
+    "resourceTypeValue": "AWC",
+    "resourceTypeGeneral": "Dataset"
+  },
+  "DatasetRecordKeys": {
+    "keysType": "Anonymised",
+    "keysDetails": "further details"
+  },
+  "DatasetDeIdentLevel": {
+    "deIdentType": "DeIdentificationApplied",
+    "deIdentDirect": true,
+    "deIdentHIPAA": true,
+    "deIdentDates": true,
+    "deIdentNonarr": true,
+    "deIdentKAnon": true,
+    "deIdentDetails": "further details"
+  },
+  "DatasetConsent": {
+    "consentType": "NoExplicitConsent",
+    "consentNoncommercial": true,
+    "consentGeogRestrict": true,
+    "consentResearchType": true,
+    "consentGeneticOnly": true,
+    "consentNoMethods": true,
+    "consentsDetails": "further details "
+  },
+  "Description": [
+    {
+      "descriptionValue": "This dataset contain data from 20 participants from the pilot study of the project. Details about the participants of the study are provided in the participants.json metadata file. Data from multiple modalities are collected. A full list is provided in the "Data Standards" section below. The data in this dataset has been deidentified using awesome tools x, y, z and contain no personel health information (PHI).",
+      "descriptionType": "Abstract"
+    }
+  ],
+  "Language": "eng",
+  "RelatedIdentifier": [
+    {
+      "relatedIdentifierValue": "10.5281/zenodo.7641684",
+      "relatedIdentifierType": "DOI",
+      "relationType": "Describes",
+      "relatedMetadataScheme": "HasMetadata",
+      "schemeURI": "https://doi.org/10.5281/zenodo.7641684",
+      "schemeType": "DDT",
+      "resourceTypeGeneral": "ConferencePaper"
+    }
+  ],
+  "Subject": [
+    {
+      "subjectValue": "subject",
+      "subjectScheme": "Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights",
+      "schemeURI": "https://id.loc.gov/authorities/subjects.html",
+      "valueURI": "https://id.loc.gov/authorities/subjects/sh85118622.html",
+      "classificationCode": "4532"
+    }
+  ],
+  "ManagingOrganisation": {
+    "name": "AI-READI project",
+    "rorId": "14537"
+  },
+  "AccessType": "PublicOnScreenAccess",
+  "AccessDetails": {
+    "description": "The project will aim to collect data from 4,000 participants across three sites: the University of Alabama at Birmingham (UAB), the University of California San Diego (UCSD), and the University of Washington (UW). To ensure the data is population-representative, the 4,000 participants will be balanced for three factors: disease severity, ethnicity, and sex.",
+    "url": "https://orcid.org",
+    "urlLastChecked": "2018-01-10T06:14:00Z"
+  },
+  "Rights": [
+    {
+      "rightsValue": "Creative Commons Attribution 4.0 International License",
+      "rightsURI": "http://creativecommons.org/licenses/by/4.0/",
+      "rightsIdentifier": "CC-BY-4.0",
+      "rightsIdentifierScheme": "SPDX"
+    }
+  ],
+  "Publisher": "Zenodo",
+  "Size": [
+    "bytes"
+  ],
+  "FundingReference": [
+    {
+      "funderName": "NSF",
+      "funderIdentifier": {
+        "funderIdentifierValue": "12543GF3",
+        "funderIdentifierType": "GRID",
+        "SchemeURI": "https://ror.org"
+      },
+      "awardNumber": {
+        "awardNumberValue": "GBMF3859",
+        "awardURI": "https://doi.org/10.35802/221400"
+      },
+      "awardTitle": "The NIH Common Fund’s Bridge to Artificial Intelligence (Bridge2AI) Consortium"
+    }
+  ],
+  "RelatedItem": [
+    {
+      "relatedItemType": "ConferencePaper",
+      "relationType": "Describes",
+      "relatedItemIdentifier": [
+        {
+          "relatedItemIdentifierValue": "RNA sequencing reveals novel transcripts from sympathetic stellate ganglia during cardiac sympathetic hyperactivity in rats"
+        }
+      ],
+      "creator": [
+        {
+          "creatorName": "Bhavesh Patel",
+          "nameType": "Personal"
+        }
+      ],
+      "title": [
+        {
+          "titleValue": "Artificial Intelligence Ready and Equitable Atlas for Diabetes Insights",
+          "titleType": "AlternativeTitle"
+        }
+      ],
+      "publicationYear": "2022",
+      "volume": "123",
+      "issue": "21",
+      "number": {
+        "numberValue": "1",
+        "numberType": "Article"
+      },
+      "firstPage": "We share here the software development best practices of the AI-READI project, ",
+      "lastPage": "lastname",
+      "publisher": "MIT",
+      "edition": "Conference",
+      "contributor": [
+        {
+          "contributorType": "ContactPerson",
+          "contributorName": "Bhavesh Patel",
+          "nameType": "Personal"
+        }
+      ]
+    }
+  ]
+}

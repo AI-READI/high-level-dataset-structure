@@ -1,28 +1,33 @@
-abstract: A sample template for AI-READI projects
+abstract: A standardized, universal high-level dataset structure for FAIR clinical research data
 authors:
-  - affiliation: FAIR Data Innovations Hub
-    email: ssoundarajan@calmi2.org
-    family-names: Soundarajan
-    given-names: Sanjay
-  - affiliation: FAIR Data Innovations Hub
+  - affiliation: FAIR Data Innovations Hub, California Medical Innovations Institute
     email: bpatel@calmi2.org
     family-names: Patel
     given-names: Bhavesh
+    orcid: 'https://orcid.org/0000-0002-0307-262X'
+  - affiliation: FAIR Data Innovations Hub, California Medical Innovations Institute
+    email: ssoundarajan@calmi2.org
+    family-names: Soundarajan
+    given-names: Sanjay
+  - affiliation: FAIR Data Innovations Hub, California Medical Innovations Institute
+    email: agasimova@calmi2.org
+    family-names: Gasimova
+    given-names: Aydan
 cff-version: 1.2.0
-date-released: "2022-11-28"
+date-released: '2023-05-19'
 identifiers:
-  - description: DOI for this software's record on Zenodo
+  - description: DOI for this repository on Zenodo
     type: doi
-    value: https://doi.org/10.5281/zenodo.7373697
+    value: TBA
 keywords:
-  - AI-READI
-  - template
-  - project
-license: MIT
-message: If you use this software, please cite it as below.
-repository-artifact: https://github.com/AI-READI/template
-repository-code: https://github.com/AI-READI/template
-title: AI-READI Template
-type: software
-url: https://aireadi.org/
-version: 0.0.1
+  - standard
+  - metadata
+  - FAIR
+  - folder structure
+license: CC-BY-4.0
+message: If you use this work, please cite it as below.
+repository-code: 'https://github.com/AI-READI/high-level-dataset-structure'
+title: Clinical Dataset Structure (CDS)
+type: dataset
+url: 'https://aireadi.org/'
+version: 1.0.0
