@@ -95,7 +95,7 @@ Once it's filed:
 
 ### Suggesting Enhancements
 
-This section guides you through submitting an enhancement/change suggestion for BCDS, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
+This section guides you through submitting an enhancement/change suggestion for CDS, **including completely new features and minor improvements to existing functionality**. Following these guidelines will help maintainers and the community to understand your suggestion and find related suggestions.
 
 <!-- omit in toc -->
 
@@ -119,4 +119,4 @@ Enhancement suggestions are tracked as [GitHub issues](https://github.com/AI-REA
 
 ### Your First Contribution
 
-You can also fork the repository and submit a pull request with your contributions (bug fixes, enhancements, suggestions, etc.). Make your suggestions on the main folder of the main branch if making suggestions on the last released version of the BCDS or on the main folder of the staging branch if making suggestions on the lastest draft version (suggested).
+You can also fork the repository and submit a pull request with your contributions (bug fixes, enhancements, suggestions, etc.). Make your suggestions on the main folder of the main branch if making suggestions on the last released version of the CDS or on the main folder of the staging branch if making suggestions on the lastest draft version (suggested).
