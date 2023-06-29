@@ -48,7 +48,7 @@ Clinical research studies typically collect multimodal data that can be organize
 
 The Clinical Dataset Structure (CDS) is a simple and intuitive standard for the high-level organization of clinical research data. It prescribes a folder structure for organizing a dataset at the highest level (i.e., root-level) into one folder per data type wherein data type-specific standard structures can then be followed within each folder. It also prescribes several metadata files to be included at the highest level of the dataset structure to facilitate human and machine reusability of the dataset. 
 
-The goal of the CDS is to increase the interoperability and reusabiliy of bclinical research data. This is crucial to faciliate the understanding of a dataset and also enable combining different datasets together for statistical analysis, AI/ML-based modeling, and such.
+The goal of the CDS is to increase the interoperability and reusabiliy of clinical research data. This is crucial to faciliate the understanding of a dataset and also enable combining different datasets together for statistical analysis, AI/ML-based modeling, and such.
 
 We are developing the CDS at part of the AI-READI project where we identified a gap in organizing multimodal data into a standard structure. This repository contains details about the CDS specifications and templates to help implement them.
 
@@ -64,7 +64,7 @@ Note: While the focus of the CDS is on clinical research data, the CDS could be 
 The specifications of the latest released version of the CSD can be found [here](main). 
 
 ## Structure of this repository
-Each version of the CSD standard are stored in a dedicated folder under the `versions` folder. An assessment of the compliance of the CSD with the relevant FAIR principles is also included with each version. The corresponding templates are in the `template` folder. The `main` folder contain a copy of the latest released version where edits/suggestions can be made via pull request. At the time of the release of a new version of the BCSD, the version in the `main` folder will be copied in the `versions` folder and renamed after the new version number. Changes between the different versions are tracked in the [CHANGELOG](CHANGELOG.md) file. 
+Each version of the CSD standard are stored in a dedicated folder under the `versions` folder. An assessment of the compliance of the CSD with the relevant FAIR principles is also included with each version. The corresponding templates are in the `template` folder. The `main` folder contain a copy of the latest released version where edits/suggestions can be made via pull request. At the time of the release of a new version of the CDS, the version in the `main` folder will be copied in the `versions` folder and renamed after the new version number. Changes between the different versions are tracked in the [CHANGELOG](CHANGELOG.md) file. 
 
 ## Contributing
 
