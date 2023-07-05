@@ -1,5 +1,5 @@
 
-# Flagshit Dataset of Type 2 Diabetes from the AI-READI Project
+# Flagship Dataset of Type 2 Diabetes from the AI-READI Project
 
 
 ## Latest version number
