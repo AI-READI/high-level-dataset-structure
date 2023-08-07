@@ -1,5 +1,5 @@
 
-# Flagshit Dataset of Type 2 Diabetes from the AI-READI Project
+# Flagship Dataset of Type 2 Diabetes from the AI-READI Project
 
 
 ## Latest version number
@@ -20,9 +20,10 @@ This dataset contain data from 20 participants from the pilot study of the proje
 The dataset contains a total of 1,265 files (including data and metadata files) and is 420 GB in size.
 
 ## Protocol
-The protocol followed for collecting the dataset can be found at [protocols.io](https://protocols.io/).
+The protocol followed:
+- For collecting the dataset can be found at [protocols.io](https://protocols.io/).
 
-The protocol for followed for curating and sharing the dataset can be found at [protocols.io](https://protocols.io/). 
+- For curating and sharing the dataset can be found at [protocols.io](https://protocols.io/). 
 
 ## Dataset access/restrictions
 This dataset is publicly accessible without any restrictions under the terms of the license described below in the "License" section. For accessing a version of the dataset that contains PHI, follow the instructions available [here](https://aireadi.org/).
