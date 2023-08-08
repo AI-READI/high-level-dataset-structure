@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - Added a single "clinical_data" folder for all REDCap data in the data type dictionnary. Modified the template accordingly.
-- Added a "Data type" field in the participants.json template
+- Added more clear instructions for the participants metadata files, including the need for "Data type" sub-key in the participants.json metadata file. The template has been updated accordingly.
 
 ### Changed
 
