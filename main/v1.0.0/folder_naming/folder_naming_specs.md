@@ -15,7 +15,7 @@ The following process was followed for each data type documented in the dictiona
 1. Search the [BioPortal](http://bioportal.bioontology.org/) maintained by the National Center for Biomedical Ontology (NCBO) with terms related to the procedure, tests, and/or devices associated with the data type.
 2. Select a standard term for the data type based on the search results:
 
-    2.1. If a standard term is found, retain the standard term from the top most relevant bio-ontology recommended by the NCBO Ontology Recommender 2.0.
+    2.1. If a standard term is found, retain the standard term from the top most relevant bio-ontology recommended by the NCBO Ontology Recommender 2.0. If the term is reused from another ontology, refer to the main ontology.
     
     2.2. If a standard term is not found, suggest a standard term that is intuitive for uniquely understanding the data type.
 
