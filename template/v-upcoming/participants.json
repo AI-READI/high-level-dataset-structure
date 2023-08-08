@@ -5,7 +5,7 @@
             "no_diabetes": "participants from the cohort with no diabetes",
             "lifestyle_controlled_diabetes": "participants from the cohort of lifestyle controlled-diabetes",
             "oral_medication_controlled_diabetes": "participants from the cohort of oral medication controlled diabetes",
-            "insulin_dependent_diabetes": "participants from the cohort of insulin dependent diabetes"
+            "insulin_controlled_diabetes": "participants from the cohort of insulin controlled diabetes"
         },
         "Data type": "string"
     }
