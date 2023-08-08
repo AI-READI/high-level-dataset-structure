@@ -9,12 +9,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 
-- Added
+- Added a single "clinical_data" folder for all REDCap data in the data type dictionnary. Modified the template accordingly.
+- Added a "Data type" field in the participants.json template
 
 ### Changed
 
-- Added a single "clinical_data" folder for all REDCap data in the data type dictionnary. Modified the template accordingly.
-- Replace the "readme.md" files in the template folders with a "placeholder_file.txt" file to make it more clear it is just some file to fill up the folder.
+- Removed individual folder for each clinical data type. Modified the template accordingly.
+- Replaced the "readme.md" files in the template folders with a "placeholder_file.txt" file to make it more clear it is just some file to fill up the folder.
 
 ### Fixed
 
