@@ -13,7 +13,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- Changed
+- Added a single "clinical_data" folder for all REDCap data in the data type dictionnary. Modified the template accordingly.
+- Replace the "readme.md" files in the template folders with a "placeholder_file.txt" file to make it more clear it is just some file to fill up the folder.
 
 ### Fixed
 
