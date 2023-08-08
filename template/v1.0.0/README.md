@@ -48,7 +48,7 @@ This work is licensed under a [Creative Commons Attribution 4.0 International Li
 
 ## How to cite
  If you use this dataset for any purpose, please cite the dataset and the associated manuscript listed below:
- - AI-READI project. (2023). Flagshit Dataset of Type 2 Diabetes from the AI-READI Project (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7641684
+ - AI-READI project. (2023). Flagship Dataset of Type 2 Diabetes from the AI-READI Project (1.0.0). Zenodo. https://doi.org/10.5281/zenodo.7641684
  - AI-READI Project (2023). AI-READI Marker Paper. Best Journal, 61(53), 95-180. https://doi.org/10.5281/zenodo.7641684
 
 ## Contact
