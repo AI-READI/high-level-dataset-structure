@@ -21,6 +21,22 @@ These metadata files must be located at the highest-level/root-level of the data
 
 ### Content
 Follow the exact specification provided in [BIDS v1.8.0](https://bids-specification.readthedocs.io/en/v1.8.0/03-modality-agnostic-files.html#participants-file)
-for the structure and content of these metadata files. The following keys must be included with an associated value: 
-`participant_id`, `species`, `age`, `sex`, along with `strain` and `strain_rrid` if `species` is different than `homo sapiens`. 
-Additional keys could be included when deemed necessary for the reuse of the dataset.
+for the structure metadata files. 
+
+The content of the `participants.tsv` file must be as follows:
+- All column labels must be lower case with underscore used as word separator (no white space)
+- A column labeled `participant_id` must be included with an associated value for each participant in the dataset
+- A column with label matching each high-level folder in the dataset must be included (for instance `electrocardiogram`, `optical_coherence_tomography` , etc.) with a boolean value (true/false) for each participant based on if that data type is available for that participant or not
+- If participants are organized into mutiple group/cohort, a column labeled `group` must be included with the group name specified for each participant
+- Optionally include other columns as deemed adequate to facilitate data reuse such as `age`, `sex`, etc.
+
+The content of the `participants.json` file must be as follows:  
+- There must be one key for each column label in the `participants.tsv` file
+- All sub-keys should start with an upper case letter for the first word and white space should be used as word separator
+- A `Description` sub-key must be included for each key to describe what that key represent
+- A `Data type` sub-key must be included to indicate what type of data is associated with that key. The type of data must be from the list provided in [TBD]
+- If there are a limited number of possible values for a given key, a sub-key called "Levels" must be included to list and define the different possible values
+- If a key value is expressed in a given unit, a sub-key named "Units" must be included to specify the unit
+- Other sub-keys can be included as deemed necessary for the reuse of the data
+
+
