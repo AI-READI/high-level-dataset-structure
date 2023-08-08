@@ -1,5 +1,5 @@
-participant_id	age	sex	group
-sub-01	31	M	read
-sub-02	25	M	write
-sub-03	30	M	read
-sub-04	26	F	write
+participant_id	group	activity_monitor	clinical_data	continuous_glucose_monitoring	electrocardiogram	environmental_sensor_measurements	eye_fundus_photography	fluorescence_lifetime_imaging_ophthalmoscopy	optical_coherence_tomography	optical_coherence_tomography_angiography			
+sub-01	no_diabetes	true	true	true	true	false	true	true	true	true			
+sub-02	lifestyle_controlled_diabetes	true	true	false	true	true	true	true	true	true			
+sub-03	oral_medication_controlled_diabetes	false	true	true	true	true	true	true	true	true			
+sub-04	insulin_dependent_diabetes	true	true	true	true	true	true	true	true	true			
