@@ -31,7 +31,7 @@ The content of the `participants.tsv` file must be as follows:
 - Optionally include other columns as deemed adequate to facilitate data reuse such as `age`, `sex`, etc.
 
 The content of the `participants.json` file must be as follows:  
-- There must be one key for each column label in the `participants.tsv` file except for `participants.tsv` and the labels corresponding to the high-level folders
+- There must be one key for each column label in the `participants.tsv` file except for `participant_id` and the labels corresponding to the high-level folders
 - All sub-keys should start with an upper case letter for the first word and white space should be used as word separator
 - A `Description` sub-key must be included for each key to describe what that key represent
 - A `Data type` sub-key must be included to indicate what type of data is associated with that key. The type of data must be from the list provided in [TBD]
